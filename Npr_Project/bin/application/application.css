@@ -1,0 +1,57 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#btnsend{
+	-fx-background-image: url("../img/send.png");
+	-fx-background-size:26 26;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position:center center;
+	-fx-background-color:transparent;
+}
+#btnsend:hover{
+	-fx-background-image: url('../img/send2.png');
+}
+#btnprivatechat{
+	-fx-background-image: url("../img/user2.png");
+	-fx-background-size:30 30;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position:center center;
+	-fx-background-color:transparent;
+}
+#btnprivatechat:hover{
+	-fx-background-image: url('../img/user.png');
+}
+#btngroupchat{
+	-fx-background-image: url("../img/group.png");
+	-fx-background-size:36 36;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position:center center;
+	-fx-background-color:transparent;
+}
+#btngroupchat:hover{
+	-fx-background-image: url('../img/group2.png');
+}
+.list-cell {
+    -fx-control-inner-background: transparent ;
+}
+.list-view .scroll-bar:vertical .increment-arrow,
+.list-view .scroll-bar:vertical .decrement-arrow,
+.list-view .scroll-bar:vertical .increment-button,
+.list-view .scroll-bar:vertical .decrement-button {
+    -fx-padding: 0px;
+}
+.list-cell:selected{
+	-fx-background-color: rgba(0, 0, 0, 0.1);
+}
+
+.list-view .scroll-bar:vertical {
+    -fx-padding: 0px;
+}
+#btnLogin{
+	-fx-background-color: #1a434e;
+	-fx-background-radius : 20 20 20 20;
+	-fx-border-radius: 20 20 20 20;
+}
+#btnLogin:hover{
+	-fx-background-color: #325863;
+	-fx-background-radius : 20 20 20 20;
+	-fx-border-radius: 20 20 20 20;
+}

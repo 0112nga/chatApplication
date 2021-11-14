@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="hbox" alignment="CENTER_LEFT" style="-fx-background-color: rgba(0, 0, 0, 0);" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="44.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/account2.png" />
+         </image>
+         <HBox.margin>
+            <Insets bottom="5.0" left="10.0" top="5.0" />
+         </HBox.margin>
+      </ImageView>
+      <VBox alignment="CENTER_LEFT">
+         <children>
+            <Label fx:id="username" text="Username" textFill="#aebdc1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets right="2.0" />
+               </VBox.margin>
+            </Label>
+            <VBox alignment="CENTER_LEFT" prefHeight="20.0" prefWidth="220.0">
+               <children>
+                  <Label fx:id="recentMessage" text="unreaded message" textFill="#aebdc1">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets right="2.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets right="5.0" />
+               </padding>
+            </VBox>
+         </children>
+         <HBox.margin>
+            <Insets left="10.0" />
+         </HBox.margin>
+         <padding>
+            <Insets right="5.0" />
+         </padding>
+      </VBox>
+   </children>
+</HBox>
